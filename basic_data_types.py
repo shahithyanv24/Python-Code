@@ -65,3 +65,28 @@ if a:
     print("This is executed because the condition is True")
 else:
     print("Boolean value is False")
+
+name = "Shahithyan"
+print(name.capitalize())  # Capitalizing the first letter
+print(name.upper())  # Converting to uppercase
+print(name.lower())  # Converting to lowercase
+print(name.replace("yan", "darshan"))  # Replacing 'S' with 's
+print(name.split("t"))  # Splitting the string at 'a'
+print(name[0])  # Accessing the first character
+print(len(name))  # Length of the string
+print(name[1:5])  # Slicing the string from index 1 to 4
+print(name[-1])  # Accessing the last character
+print(name[-4:-1])  # Slicing the string from index -4 to -
+print(name + " Darshan")  # Concatenating strings
+
+if "Vijayaraj" in name:
+    print("Vijayaraj is in the name")
+else:
+    print("Vijayaraj is not in the name")
+
+name = name + " Vijayaraj"
+print(name)
+if "Vijayaraj" in name:
+    print("Vijayaraj is in the name")
+else:
+    print("Vijayaraj is not in the name")
