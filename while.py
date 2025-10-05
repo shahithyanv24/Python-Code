@@ -12,7 +12,7 @@ while x < 6:
     continue
   print(x)
 
-  y = 1
+y = 1
 while y < 6:
   print(y)
   y += 1
